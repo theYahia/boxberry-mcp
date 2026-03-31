@@ -7,7 +7,7 @@ import { listPointsSchema, handleListPoints } from "./tools/points.js";
 import { calcDeliverySchema, handleCalcDelivery } from "./tools/calculate.js";
 import { trackSchema, handleTrack } from "./tools/tracking.js";
 
-const server = new McpServer({ name: "boxberry-mcp", version: "1.0.0" });
+const server = new McpServer({ name: "boxberry-mcp", version: "1.0.1" });
 
 server.tool("list_cities", "Список городов Boxberry с возможностью поиска по названию.", listCitiesSchema.shape,
   async (params) => ({ content: [{ type: "text", text: await handleListCities(params) }] }));
