@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "boxberry": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@theyahia/boxberry-mcp"
+      ],
+      "env": {
+        "BOXBERRY_TOKEN": "YOUR_TOKEN"
+      }
+    }
+  }
+}
