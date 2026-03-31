@@ -7,7 +7,7 @@
         "@theyahia/boxberry-mcp"
       ],
       "env": {
-        "BOXBERRY_TOKEN": "YOUR_TOKEN"
+        "BOXBERRY_API_TOKEN": "YOUR_TOKEN"
       }
     }
   }
