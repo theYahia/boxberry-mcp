@@ -4,11 +4,11 @@ const TIMEOUT = 15_000;
 export class BoxberryClient {
   private token: string;
 
-  constructor() {
-    this.token = process.env.BOXBERRY_TOKEN ?? "";
+  constructor(token?: string) {
+    this.token = token ?? process.env.BOXBERRY_API_TOKEN ?? process.env.BOXBERRY_TOKEN ?? "";
     if (!this.token) {
       throw new Error(
-        "Переменная окружения BOXBERRY_TOKEN обязательна. " +
+        "Переменная окружения BOXBERRY_API_TOKEN обязательна. " +
         "Получите токен в личном кабинете Boxberry."
       );
     }
