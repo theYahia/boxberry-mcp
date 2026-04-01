@@ -1,7 +1,7 @@
 {
   "name": "@theyahia/boxberry-mcp",
   "version": "1.1.0",
-  "description": "MCP server for Boxberry delivery API — cities, delivery points, tariff calculation, tracking, zip codes, services. 6 tools.",
+  "description": "MCP server for Boxberry — delivery points, shipping calculation, tracking (Russia)",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -47,7 +47,9 @@
     "delivery",
     "shipping",
     "logistics",
-    "tracking"
+    "tracking",
+    "api",
+    "typescript"
   ],
   "license": "MIT",
   "repository": {
