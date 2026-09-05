@@ -75,3 +75,6 @@ BOXBERRY_API_TOKEN=<TOKEN> npm run dev
 
 MIT
 
+---
+
+Telegram: [@vhodvai](https://t.me/vhodvai)
